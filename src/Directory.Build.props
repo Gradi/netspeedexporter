@@ -1,0 +1,23 @@
+<Project>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>preview</LangVersion>
+    <Platforms>x64</Platforms>
+    <Platform>x64</Platform>
+    <Configurations>Release;Debug</Configurations>
+    <WarningLevel>5</WarningLevel>
+    <WarnOn>1182,3390</WarnOn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FSharp.Json" Version="0.4.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Argu" Version="6.2.4" />
+    <PackageReference Include="ByteSize" Version="2.1.2" />
+    <PackageReference Include="Serilog" Version="4.0.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="8.0.1" />
+  </ItemGroup>
+
+</Project>

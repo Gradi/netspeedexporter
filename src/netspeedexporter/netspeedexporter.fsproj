@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="MSeq.fs" />
+    <Compile Include="NetSpeedTypes.fs" />
+    <Compile Include="Iperf3Speedometer.fs" />
+    <Compile Include="MikrotikSpeedometer.fs" />
+    <Compile Include="NetSpeed.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+</Project>
